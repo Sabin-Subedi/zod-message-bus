@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --dts"
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --dts",
+    "lint": "tsc",
+    "dev":"vitest",
+    "test": "vitest run",
+    "ci":"pnpm run lint && pnpm run test && pnpm run build"
   },
   "keywords": [],
   "author": "Sabin Subedi",
@@ -12,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^18.16.3",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   }
 }
