@@ -1,0 +1,17 @@
+{
+  "name": "zod-message-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --dts"
+  },
+  "keywords": [],
+  "author": "Sabin Subedi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
