@@ -1,11 +1,11 @@
 {
   "name": "@sabin_125/zod-message-bus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "private":false,
+  "private": false,
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --dts",
     "lint": "tsc",
