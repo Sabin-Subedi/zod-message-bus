@@ -2,5 +2,5 @@ src
 .changeset
 .github
 pnpm-lock.yaml
-tscongi.json
+tsconfig.json
 vitest.config.ts
